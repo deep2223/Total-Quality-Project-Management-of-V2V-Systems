@@ -1,0 +1,66 @@
+﻿,,Task Mode,Task Name,Duration,Start,Finish,Predecessors,Resource Names
+1,,,V2V Communications,262 days,Mon 01-07-19 08:00,Tue 30-06-20 17:00,,
+2,,,Concept,5 days,Mon 01-07-19 08:00,Fri 05-07-19 17:00,,
+3,,,Kick off meeting,5 days,Mon 01-07-19 08:00,Fri 05-07-19 17:00,,
+4,,,Determine project scope,1 day,Mon 01-07-19 08:00,Mon 01-07-19 17:00,,Management
+5,,,Secure project sponsorship,1 day,Tue 02-07-19 08:00,Tue 02-07-19 17:00,4,Management
+6,,,Define preliminary resources,1 day,Wed 03-07-19 08:00,Wed 03-07-19 17:00,5,Project Manager
+7,,,Brief on avaliable resources,1 day,Thu 04-07-19 08:00,Thu 04-07-19 17:00,6,Project Manager
+8,,,Scope complete,1 day,Fri 05-07-19 08:00,Fri 05-07-19 17:00,7,
+9,,,Analysis/Software/Hardware Requirements,30 days,Mon 08-07-19 08:00,Fri 16-08-19 17:00,,
+10,,,Conduct needs analysis,5 days,Mon 08-07-19 08:00,Fri 12-07-19 17:00,8,Analyst
+11,,,Draft Preliminary Hardware Specifications,10 days,Mon 15-07-19 08:00,Fri 26-07-19 17:00,10,
+12,,,Draft preliminary software specifications,10 days,Fri 26-07-19 08:00,Thu 08-08-19 17:00,,Analyst
+13,,,Develop preliminary budget,2 days,Fri 09-08-19 08:00,Mon 12-08-19 17:00,12,Project Manager
+14,,,Review software specifications/Hardware Specifications/ budget with team,1 day,Tue 13-08-19 08:00,Tue 13-08-19 17:00,13,"Project Manager,Analyst"
+15,,,Incorporate feedback on Specifications & Budget,2 days,Wed 14-08-19 08:00,Thu 15-08-19 17:00,14,Analyst
+16,,,"Obtain approvals to proceed (concept, timeline, budget)",1 day,Fri 16-08-19 08:00,Fri 16-08-19 17:00,15,"Management,Project Manager"
+17,,,Analysis complete,0 days,Fri 16-08-19 17:00,Fri 16-08-19 17:00,16,
+18,,,Hardware and Software Design,59 days,Mon 19-08-19 08:00,Thu 07-11-19 17:00,,
+19,,,CAD Design,10 days,Mon 19-08-19 08:00,Fri 30-08-19 17:00,,Deployment Team
+20,,,Start Designing Software,13 days,Mon 19-08-19 08:00,Wed 04-09-19 17:00,17,Developer
+21,,,Start Designing Hardware Components,45 days,Mon 19-08-19 08:00,Fri 18-10-19 17:00,,Developer
+22,,,Develop functional specifications,5 days,Mon 21-10-19 08:00,Fri 25-10-19 17:00,21,Deployment Team
+23,,,Develop prototype based on functional specifications,4 days,Mon 28-10-19 08:00,Thu 31-10-19 17:00,22,Developer
+24,,,Review functional specifications,2 days,Fri 01-11-19 08:00,Mon 04-11-19 17:00,23,Management
+25,,,Incorporate feedback into functional specifications,1 day,Tue 05-11-19 08:00,Tue 05-11-19 17:00,24,Management
+26,,,Obtain approval to proceed,1 day,Wed 06-11-19 08:00,Wed 06-11-19 17:00,25,"Management,Project Manager"
+27,,,Design complete,0 days,Wed 06-11-19 17:00,Wed 06-11-19 17:00,26,
+28,,,Hardware and Software Development,90 days,Mon 11-11-19 08:00,Fri 13-03-20 17:00,,
+29,,,Hardware Development,45 days,Mon 11-11-19 08:00,Fri 10-01-20 17:00,,
+30,,,Sotfware Develoment,45 days,Mon 11-11-19 08:00,Fri 10-01-20 17:00,,
+31,,,Testing of Sofware,45 days,Mon 13-01-20 08:00,Fri 13-03-20 17:00,30,
+32,,,Tesing of Hardware Components,45 days,Mon 13-01-20 08:00,Fri 13-03-20 17:00,29,
+33,,,Integration,10 days,Mon 16-03-20 08:00,Fri 27-03-20 17:00,,
+34,,,Integration of Software and Hardware ,7 days,Mon 16-03-20 08:00,Tue 24-03-20 17:00,,Deployment Team
+35,,,Testing after Integration,3 days,Wed 25-03-20 08:00,Fri 27-03-20 17:00,34,Testers
+36,,,Networks,15 days?,Mon 30-03-20 08:00,Fri 17-04-20 17:00,,
+37,,,Create Networks,15 days?,Mon 30-03-20 08:00,Fri 17-04-20 17:00,,
+38,,,Data Collection & Management,15 days,Mon 20-04-20 08:00,Fri 08-05-20 17:00,,
+39,,,Creation of Data Centers,10 days,Mon 20-04-20 08:00,Fri 01-05-20 17:00,,
+40,,,Sending& Receiving from data Centers,5 days,Mon 04-05-20 08:00,Fri 08-05-20 17:00,39,
+41,,,Testing,31 days,Mon 11-05-20 08:00,Mon 22-06-20 17:00,,
+42,,,Develop unit test plans using product specifications,4 days,Mon 11-05-20 08:00,Thu 14-05-20 17:00,27,Testers
+43,,,Develop integration test plans using product specifications,4 days,Mon 11-05-20 08:00,Thu 14-05-20 17:00,27,Testers
+44,,,Unit Testing,15 days,Fri 15-05-20 08:00,Thu 04-06-20 17:00,,
+45,,,Review modular code,5 days,Fri 15-05-20 08:00,Thu 21-05-20 17:00,"35,42",Testers
+46,,,Test component modules to product specifications,2 days,Fri 22-05-20 08:00,Mon 25-05-20 17:00,"35,45",Testers
+47,,,Identify anomalies to product specifications,3 days,Tue 26-05-20 08:00,Thu 28-05-20 17:00,46,Testers
+48,,,Modify code,3 days,Fri 29-05-20 08:00,Tue 02-06-20 17:00,47,Testers
+49,,,Re-test modified code,2 days,Wed 03-06-20 08:00,Thu 04-06-20 17:00,48,Testers
+50,,,Unit testing complete,0 days,Thu 04-06-20 17:00,Thu 04-06-20 17:00,49,
+51,,,Integration Testing,12 days,Fri 05-06-20 08:00,Mon 22-06-20 17:00,,
+52,,,Test module integration,5 days,Fri 05-06-20 08:00,Thu 11-06-20 17:00,50,Testers
+53,,,Identify anomalies to specifications,2 days,Fri 12-06-20 08:00,Mon 15-06-20 17:00,52,Testers
+54,,,Modify code,3 days,Tue 16-06-20 08:00,Thu 18-06-20 17:00,53,Testers
+55,,,Re-test modified code,2 days,Fri 19-06-20 08:00,Mon 22-06-20 17:00,54,Testers
+56,,,Integration testing complete,0 days,Mon 22-06-20 17:00,Mon 22-06-20 17:00,55,
+57,,,Installation,2 days,Mon 22-06-20 08:00,Tue 23-06-20 17:00,,
+58,,,Installing the Product on Prototype,2 days,Mon 22-06-20 08:00,Tue 23-06-20 17:00,,
+59,,,Legallity & Assistance,5 days,Wed 24-06-20 08:00,Tue 30-06-20 17:00,,
+60,,,Determine final deployment strategy,1 day,Wed 24-06-20 08:00,Wed 24-06-20 17:00,,Deployment Team
+61,,,Develop deployment methodology,1 day,Thu 25-06-20 08:00,Thu 25-06-20 17:00,60,Deployment Team
+62,,,Secure deployment resources,1 day,Fri 26-06-20 08:00,Fri 26-06-20 17:00,61,Deployment Team
+63,,,Train support staff,1 day,Mon 29-06-20 08:00,Mon 29-06-20 17:00,62,Deployment Team
+64,,,Deploy software,1 day,Tue 30-06-20 08:00,Tue 30-06-20 17:00,63,Deployment Team
+65,,,Deployment complete,0 days,Tue 30-06-20 17:00,Tue 30-06-20 17:00,64,
